@@ -30,17 +30,17 @@ Este proyecto implementa una base de datos completa para la gestión de un hotel
   - `Notificaciones` (simulada)
 
 - **Relaciones referenciales** implementadas con `FOREIGN KEY`.
+- Como adicional: Se aumentaron dos tablas extras ctanto Notificaciones como Historial de Intentos para pruebas.
 
 ---
 
 ## 🔒 Seguridad
 
-- Roles personalizados: `Administrador`, `Recepcionista`, `Camarera`.
+- Roles personalizados: `Administrador`, `Recepcionista`, `Camarera`, `Usuario`.
 - Vistas limitadas por rol para control de acceso.
 - Permisos aplicados con `GRANT` y `REVOKE`.
 - Hash de contraseñas con `HASHBYTES`.
-- Simulación de conexión segura SSL/TLS.
-- Registro de intentos de acceso fallidos.
+- Registro de intentos de acceso fallidos (Tabla Extra).
 
 ---
 
@@ -88,7 +88,7 @@ Este proyecto implementa una base de datos completa para la gestión de un hotel
 ## 🚀 Requisitos
 
 - SQL Server 2019 o superior.
-- SQL Server Management Studio (SSMS).
+- SQL Server Management Studio (SSMS) / Preferiblemente la version 21.
 - Windows (para respaldo en frío con servicios).
 
 ---
@@ -96,8 +96,8 @@ Este proyecto implementa una base de datos completa para la gestión de un hotel
 ## 📜 Licencia
 
 Proyecto académico - Uso libre para fines educativos.  
-Autor: [Tu nombre aquí]  
-Fecha: [Año]
+Autor: [Antony Cisneros, Alan Logroño]  
+Fecha: [2025]
 
 ---
 
