@@ -8,11 +8,10 @@ Este proyecto implementa una base de datos completa para la gestión de un hotel
 
 | Carpeta/Archivo                  | Descripción |
 |----------------------------------|-------------|
-| `scripts/`                        | Contiene todos los archivos `.sql` organizados por módulo: creación de tablas, triggers, vistas, roles, respaldos, funciones, etc. |
-| `backup/`                         | Copia de seguridad (`.bak`) de la base de datos `Hoteles`. |
-| `diagramas/`                      | Diagrama ER exportado desde dbdiagram.io en PNG o PDF. |
+| `scriptsSQL/`                        | Contiene todos los archivos `.sql` organizados por módulo: creación de tablas, triggers, vistas, roles, respaldos, funciones, etc. |
+| `backup_SQL/`                         | Copia de seguridad (`.bak`) de la base de datos `Hoteles`. |
 | `README.md`                       | Este archivo. |
-| `informe/`                        | Informe técnico completo en Word o PDF para presentación académica. |
+| `Documentación Tecninca/`                     | Informe técnico completo en PDF para presentación académica. |
 
 ---
 
